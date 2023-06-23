@@ -7,7 +7,7 @@ function getUser() {
     var dadosJson = JSON.stringify(dados);
 
     $.ajax({
-        url: '../backend/getUser.php',
+        url: 'backend/getUser.php',
         method: 'post',
         data: { data: dadosJson },
         dataType: 'json',

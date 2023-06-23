@@ -8,7 +8,7 @@ $('#senha-atual').keyup(function(){
     var dadosJson =JSON.stringify(dados);
 
     $.ajax({
-        url: '../backend/getSenha.php',
+        url: 'backend/getSenha.php',
         method: 'post',
         data: { data: dadosJson },
         dataType: 'json',

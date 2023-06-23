@@ -38,7 +38,7 @@ function deleteSprint(_id_sprint){
         var dadosJson = JSON.stringify(dados);
 
         $.ajax({
-            url: '../backend/deleteSprint.php',
+            url: 'backend/deleteSprint.php',
             method: 'post',
             data: { data: dadosJson },
             dataType: 'json',
