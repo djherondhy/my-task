@@ -3,7 +3,7 @@ Gerenciador de Tarefas com PHP e JQuery
 Este é um projeto desenvolvido utilizando PHP e AJAX como projeto final da disciplina de Desenvolvimento Web, do Curso de Engenharia de Software
 <img src="![image](https://github.com/djherondhy/my-task/assets/35778998/895584b2-0429-42f5-a2d1-1d28c3462971)" width="300">
 
-![image](https://github.com/djherondhy/my-task/assets/35778998/895584b2-0429-42f5-a2d1-1d28c3462971) ![image](https://github.com/djherondhy/my-task/assets/35778998/16130d56-a152-4bf9-adfc-c5428531e3ea)
+![image](https://github.com/djherondhy/my-task/assets/35778998/895584b2-0429-42f5-a2d1-1d28c3462971){:width="300px"} ![image](https://github.com/djherondhy/my-task/assets/35778998/16130d56-a152-4bf9-adfc-c5428531e3ea)
 
 
 ## :rocket: Funcionalidades
