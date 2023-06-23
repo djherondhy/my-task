@@ -1,0 +1,95 @@
+.header{
+    padding: 1rem;
+    font-weight: bold;
+    position: fixed;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.message{
+    font-size:0.8rem;
+    color: #e16868;
+}
+.login h2{
+    font-weight: bold;
+    font-size: 3rem;
+   
+}
+.login{
+   gap: 1rem;
+   width:50%;
+
+}
+.text{
+    width: 60%;
+}
+.login form{
+    gap: 1rem;
+}
+.login .input-agroup{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+   
+}
+.input-agroup label{
+    font-size: 0.8rem;
+    color: #8a8a8a;
+}
+
+.input-agroup input{
+    width: 250px;
+    height: 30px;
+    border: 1px solid #000;
+    outline: 0;
+}
+.input-agroup input[type="submit"]{
+    background-color: #000;
+    color: #fff;
+}
+
+.title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.info{
+    width: 40%;
+    gap: 1rem;
+}
+
+.close-btn{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1rem;
+    background: 0;
+    border: 0;
+}
+
+@media screen and (max-width: 650px){
+   .container{
+    flex-direction: column;
+    gap: 1.5rem;
+   }
+
+
+   .info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+   }
+   .text{
+    width: 80%;
+}
+} 
+
+
+@media screen and (max-width: 360px){
+    .text{
+        width: 80%;
+    }
+ } 

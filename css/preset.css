@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.flex-h{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-v{
+    display: flex;
+    flex-direction: column;
+}
+
+.h-center{
+    align-items: center;
+}
+
+.v-center{
+    justify-content: center;
+}
+
+.center{
+    align-items: center;
+    justify-content: center;
+}
+button{
+    cursor: pointer;
+}
+
+.create{
+    color: #616161;
+}
+
+.create a{
+    text-decoration: none;
+    color: #000;
+}
+
