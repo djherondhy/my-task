@@ -6,7 +6,7 @@ function deleteTask(_id_task, _id_sprint){
     var dadosJson = JSON.stringify(dados);
 
     $.ajax({
-        url: '../backend/deleteTask.php',
+        url: 'backend/deleteTask.php',
         method: 'post',
         data: { data: dadosJson },
         dataType: 'json',

@@ -6,7 +6,7 @@ function getSprintData(_id_sprint) {
     var dadosJson = JSON.stringify(dados);
 
     $.ajax({
-        url: '../backend/getOneSprint.php',
+        url: 'backend/getOneSprint.php',
         method: 'post',
         data: { data: dadosJson },
         dataType: 'json',
@@ -33,7 +33,7 @@ function viewTask(_id_task) {
     var dadosJson = JSON.stringify(dados);
 
     $.ajax({
-        url: '../backend/getTask.php',
+        url: 'backend/getTask.php',
         method: 'post',
         data: { data: dadosJson },
         dataType: 'json',
@@ -78,7 +78,7 @@ function getTask(_id_sprint) {
     var dadosJson = JSON.stringify(dados);
 
     $.ajax({
-        url: '../backend/getTasks.php',
+        url: 'backend/getTasks.php',
         method: 'post',
         data: { data: dadosJson },
         dataType: 'json',
@@ -152,7 +152,7 @@ function getSprints() {
     var dadosJson = JSON.stringify(dados);
 
     $.ajax({
-        url: '../backend/getSprint.php',
+        url: 'backend/getSprint.php',
         method: 'post',
         data: { data: dadosJson },
         dataType: 'json',
